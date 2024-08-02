@@ -1,0 +1,59 @@
+Package: QuickBiblio
+Type: Package
+Title: Quick Bibliometrics Analysis
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Massimo",
+           family = "Aria",
+           role = c("cph"),
+           email = "aria@unina.it",
+           comment = c(ORCID = "0000-0002-8517-9411", "Author of most of the functions")),
+    person(given = "Corrado",
+           family = "Cuccurullo",
+           role = "aut",
+           email = "cuccurullocorrado@gmail.com",
+           comment = c(ORCID = "0000-0002-7401-8575", "Author of most of the functions")),
+    person(given = "Marco Túlio",
+           family = "Silva",
+           role = c("ctb", "cre"),
+           email = "marcotulio270903@gmail.com"))
+Maintainer: Marco Túlio Mello Silva <marcotulio270903@gmail.com>
+Description: A package that leverages the power of Bibliometrix and the graphs made by
+    Biblioshiny to do quick analysis with somewhat great graphs
+License: GPL-3
+Encoding: UTF-8
+Imports: stats,
+     grDevices,
+     bibliometrix,
+		 bibliometrixData,
+		 dimensionsR,
+		 dplyr,
+     DT,
+		 ca,
+		 forcats,
+		 ggplot2,
+		 ggrepel,
+		 igraph,
+		 Matrix,
+		 plotly,
+		 openalexR,
+		 openxlsx,
+		 pubmedR,
+		 readr,
+		 readxl,
+	   rscopus,
+		 shiny,
+		 SnowballC,
+		 stringdist,
+		 stringi,
+		 tidyr,
+		 tidytext
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    shinycssloaders,
+    visNetwork,
+    wordcloud2
+LazyData: true
+RoxygenNote: 7.3.2

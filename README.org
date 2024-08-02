@@ -1,6 +1,5 @@
 #+title: Readme
 #+author: Marco Túlio Mello Silva
-#+email marcotulio2709@usp.br
 
 * Introduction
 This is a repository for support to my Scientific Initiation project. The R code is in the `R` directory, and it is just a bunch of macros and hacked in functions to quickly have bibliometric analysis in the level of Bilioshiny. Most of the functions are copied from the `bibliometrix` package, I just pached them to work without the need to have the biblioshiny open. Not all tha analysis are implemented, but the most important, for me, at least, are.

@@ -1,0 +1,33 @@
+#+title: Readme
+#+author: Marco Túlio Mello Silva
+#+email marcotulio2709@usp.br
+
+* Introduction
+This is a repository for support to my Scientific Initiation project. The R code is in the `R` directory, and it is just a bunch of macros and hacked in functions to quickly have bibliometric analysis in the level of Bilioshiny. Most of the functions are copied from the `bibliometrix` package, I just pached them to work without the need to have the biblioshiny open. Not all tha analysis are implemented, but the most important, for me, at least, are.
+I know that the code is bad, and the code, in general, is somewhat bad, but I'm learning, and I'm trying to improve.
+All the testing was done in Linux, with R 4.41, so I don't know if it will work in other systems.
+
+* Installation
+To install the package, you can use the `devtools` package. Just run the following code in R:
+
+#+begin_src R
+devtools::install_github("Marco-Normal/EasyBibliometrix")
+#+end_src
+
+* Usage
+To use the package, you can take the template file in the `template` directory, and change the variables to suit you. Then, you can sequentially run the code in the file. The code will take all your references, generate a single ~M.rda~ file and use it to do all the analysis.
+In general, I tried to make the code as simple as possible, and to separate the output in to images, html files and csv files. It will create 4 directories, and will have this file structure:
+
+#+begin_example
+.
+..
+|--output
+|  |--figures
+|  |--html
+|  |--csv
+|  |--M.rda
+
+#+end_example
+
+* License
+This code is under GPL-3 license. You can see the full license in the `LICENSE` file.
